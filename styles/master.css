@@ -1,0 +1,87 @@
+/*-------------------------+
+ | Site: Metra schedules   |
+ | Part: Master stylesheet |
+ +-------------------------*/
+
+
+/* Imports
+=====================================================================*/
+@import "reset.css";
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic|Droid+Sans:400,700);
+
+
+/* Fonts
+======================================================================*/
+body { font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif; }
+#footer, #legend, #help, #nav, #stats { font-family: "Droid Sans", Arial, sans-serif; }
+
+
+/* Basics
+======================================================================*/
+a { color: #369; }
+body { font-size: 15px; line-height: 1.5; }
+cite, em { font-style: italic; }
+h1 { font-size: 30px; margin-bottom: 0.25em; }
+h1 span { font-size: 13px; }
+h2 { font-size: 20px; }
+p { margin-bottom: 1.5em; }
+strong { font-weight: bold; }
+
+
+/* Layout
+======================================================================*/
+.clear { clear: both; }
+
+/* Content
+======================================================================*/
+
+/* Footer */
+#footer { color: #666; font-size: 12px; padding: 10px 50px; }
+#colophon { float: right; }
+
+/* Help */
+#help { float: right; }
+#help img { vertical-align: middle; }
+
+/* Intro */
+#intro { padding: 30px 50px; }
+
+/* Legend */
+#legend { float: right; font-size: 13px; width: 23%; }
+#legend li { padding-left: 35px; }
+#legend img { float: left; margin: 4px 0 0 -35px; }
+
+/* Muted text */
+.mute { color: #666; font-size: 11px; }
+
+/* Nav */
+#nav { float: left; margin: 0 2% 90px 0; position: relative; width: 48%; }
+
+#nav a {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #369;
+  display: block;
+  font-size: 13px;
+  margin: 0 2px 2px 0;
+  padding: 0.15em 1em;
+  text-decoration: none;
+}
+
+#nav li { float: left; width: 33.3%; }
+#nav li.current > a { background: #fff; border-color: #555; color: #000; font-weight: bold; }
+#nav li.current > ul { display: block; top: 115px; }
+#nav li.current > ul ul { top: 35px; }
+#nav li ul { display: none; left: 0; position: absolute; width: 100%; }
+  
+/* Schedule */
+#schedule { background: url(../images/loader.gif) no-repeat 50% 50%; clear: both; }
+#scheduleChart { height: 400px; }
+
+/* Stats */
+#counts { font-size: 18px; margin-bottom: 0.75em; }
+#counts strong { font-size: 30px; }
+#stats { float: left; margin-right: 2%; width: 23%; }
+
+/* Updates */
+.update { color: #1b7dd9; }

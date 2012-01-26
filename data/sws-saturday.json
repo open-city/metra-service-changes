@@ -1,0 +1,135 @@
+{
+  "name": "SouthWest Service (Saturdays)",
+  "schedule": "sws.pdf",
+  "stations": [
+    { "name": "Manhattan" },
+    { "name": "New Lenox Laraway Rd." },
+    { "name": "Orland Park 179th St." },
+    { "name": "Orland Park 153rd St." },
+    { "name": "Orland Park 143rd St." },
+    { "name": "Palos Park" },
+    { "name": "Palos Heights" },
+    { "name": "Worth" },
+    { "name": "Chicago Ridge" },
+    { "name": "Oak Lawn" },
+    { "name": "Ashburn" },
+    { "name": "Wrightwood" },
+    { "name": "Union Station" }
+  ],
+  "lines": [
+    {
+      "direction": "Inbound",
+      "name": "862",
+      "stops": [
+        { "time": "6:15am" },
+        { "time": "6:23am" },
+        { "time": "6:32am" },
+        { "time": "6:37am" },
+        { "time": "6:40am" },
+        { "time": "6:46am" },
+        { "time": "6:50am" },
+        { "time": "6:52am" },
+        { "time": "6:55am" },
+        { "time": "7:00am" },
+        { "time": "7:06am" },
+        { "time": "7:09am" },
+        { "time": "7:40am" }
+      ]
+    },
+    {
+      "direction": "Inbound",
+      "name": "864",
+      "stops": [
+        { "time": "11:00am" },
+        { "time": "11:08am" },
+        { "time": "11:17am" },
+        { "time": "11:22am" },
+        { "time": "11:25am" },
+        { "time": "11:31am" },
+        { "time": "11:35am" },
+        { "time": "11:37am" },
+        { "time": "11:40am" },
+        { "time": "11:45am" },
+        { "time": "11:51am" },
+        { "time": "11:54am" },
+        { "time": "12:25pm" }
+      ]
+    },
+    {
+      "direction": "Inbound",
+      "name": "866",
+      "stops": [
+        { "time": "3:15pm" },
+        { "time": "3:23pm" },
+        { "time": "3:32pm" },
+        { "time": "3:37pm" },
+        { "time": "3:40pm" },
+        { "time": "3:46pm" },
+        { "time": "3:50pm" },
+        { "time": "3:52pm" },
+        { "time": "3:55pm" },
+        { "time": "4:00pm" },
+        { "time": "4:06pm" },
+        { "time": "4:09pm" },
+        { "time": "4:40pm" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "861",
+      "stops": [
+        { "time": "1:30pm" },
+        { "time": "1:56pm" },
+        { "time": "1:59pm" },
+        { "time": "2:05pm" },
+        { "time": "2:10pm" },
+        { "time": "2:13pm" },
+        { "time": "2:15pm" },
+        { "time": "2:18pm" },
+        { "time": "2:24pm" },
+        { "time": "2:28pm" },
+        { "time": "2:34pm" },
+        { "time": "2:44pm" },
+        { "time": "2:55pm" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "863",
+      "stops": [
+        { "time": "5:00pm" },
+        { "time": "5:26pm" },
+        { "time": "5:29pm" },
+        { "time": "5:35pm" },
+        { "time": "5:40pm" },
+        { "time": "5:43pm" },
+        { "time": "5:45pm" },
+        { "time": "5:48pm" },
+        { "time": "5:54pm" },
+        { "time": "5:58pm" },
+        { "time": "6:04pm" },
+        { "time": "6:14pm" },
+        { "time": "6:25pm" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "865",
+      "stops": [
+        { "time": "10:30pm" },
+        { "time": "10:56pm" },
+        { "time": "10:59pm" },
+        { "time": "11:05pm" },
+        { "time": "11:10pm" },
+        { "time": "11:13pm" },
+        { "time": "11:15pm" },
+        { "time": "11:18pm" },
+        { "time": "11:24pm" },
+        { "time": "11:28pm" },
+        { "time": "11:34pm" },
+        { "time": "11:44pm" },
+        { "time": "11:55pm" }
+      ]
+    }
+  ]
+}

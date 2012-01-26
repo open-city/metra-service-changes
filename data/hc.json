@@ -1,0 +1,85 @@
+{
+  "name": "Heritage Corridor",
+  "stations": [
+    { "name": "Joliet" },
+    { "name": "Lockport" },
+    { "name": "Lemont" },
+    { "name": "Willow Springs" },
+    { "name": "Summit" },
+    { "name": "Union Station" }
+  ],
+  "lines": [
+    {
+      "direction": "Inbound",
+      "name": "914",
+      "stops": [
+        { "time": "5:45am" },
+        { "time": "5:51am" },
+        { "time": "6:00am" },
+        { "time": "6:09am" },
+        { "time": "6:17am" },
+        { "time": "6:50am" }
+      ]
+    },
+    {
+      "direction": "Inbound",
+      "name": "916",
+      "stops": [
+        { "time": "6:25am" },
+        { "time": "6:31am" },
+        { "time": "6:40am" },
+        { "time": "6:49am" },
+        { "time": "6:57am" },
+        { "time": "7:30am" }
+      ]
+    },
+    {
+      "direction": "Inbound",
+      "name": "918",
+      "stops": [
+        { "time": "7:05am" },
+        { "time": "7:11am" },
+        { "time": "7:20am" },
+        { "time": "7:29am" },
+        { "time": "7:37am" },
+        { "time": "8:10am" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "917",
+      "stops": [
+        { "time": "4:50pm" },
+        { "time": "5:15pm" },
+        { "time": "5:23pm" },
+        { "time": "5:33pm" },
+        { "time": "5:43pm" },
+        { "time": "5:52pm" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "919",
+      "stops": [
+        { "time": "5:25pm" },
+        { "time": "5:50pm" },
+        { "time": "5:58pm" },
+        { "time": "6:08pm" },
+        { "time": "6:18pm" },
+        { "time": "6:27pm" }
+      ]
+    },
+    {
+      "direction": "Outbound",
+      "name": "921",
+      "stops": [
+        { "time": "6:12pm" },
+        { "time": "6:37pm" },
+        { "time": "6:45pm" },
+        { "time": "6:55pm" },
+        { "time": "7:05pm" },
+        { "time": "7:14pm" }
+      ]
+    }
+  ]
+}
